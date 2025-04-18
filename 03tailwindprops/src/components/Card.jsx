@@ -2,6 +2,7 @@ import React from 'react'
 
 function Card(){
     return(
+      <div>
         <figure class="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
         <img class="w-24 h-24 rounded-full mx-auto" src="https://cdn.pixabay.com/photo/2016/11/19/16/36/mountain-climbing-1840220_960_720.jpg" alt="" width="384" height="512"/>
         <div class="pt-6 text-center space-y-4">
@@ -22,7 +23,8 @@ function Card(){
           </figcaption>
         </div>
       </figure>
+    </div>
     )
 }
 
-export default card
+export default Card
