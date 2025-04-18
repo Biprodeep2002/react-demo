@@ -78,7 +78,7 @@ function App() {
           </div>
         </div>
       </div> */}
-      <Card/>
+      <Card username="Biprodeep" job="Trainee"/>
       <Card/>
     </>
   )
